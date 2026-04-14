@@ -1,0 +1,157 @@
+.home-hero,
+.home-section {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(16rem, 1fr);
+  gap: 3rem;
+  align-items: center;
+  padding: 3rem 0 2rem;
+}
+
+.home-hero__copy h1,
+.home-section__header h2,
+.publication-preview h3 {
+  letter-spacing: -0.03em;
+}
+
+.home-hero__copy h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.4rem, 5vw, 4.25rem);
+  line-height: 1;
+}
+
+.home-eyebrow,
+.home-section__eyebrow,
+.publication-preview__meta {
+  margin: 0 0 0.75rem;
+  color: #5c6b73;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.home-lead {
+  max-width: 40rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #27343b;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-links,
+.home-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.home-hero__image {
+  display: flex;
+  justify-content: center;
+}
+
+.home-hero__image img {
+  width: min(100%, 22rem);
+  border-radius: 1.75rem;
+  box-shadow: 0 1.5rem 4rem rgba(17, 24, 39, 0.14);
+}
+
+.home-section {
+  padding: 2rem 0;
+  scroll-margin-top: 5rem;
+}
+
+.home-section__header {
+  margin-bottom: 1rem;
+}
+
+.home-section__header h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.home-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.home-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-card {
+  padding: 1.5rem;
+  border: 1px solid #d8e0e5;
+  border-radius: 1.25rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbfc 100%);
+  box-shadow: 0 1rem 2.5rem rgba(15, 23, 42, 0.05);
+}
+
+.home-card--spaced {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.home-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.home-card p:last-child,
+.publication-preview p:last-child {
+  margin-bottom: 0;
+}
+
+.home-list li + li,
+.publication-preview + .publication-preview {
+  margin-top: 0.75rem;
+}
+
+.publication-preview {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e5ecef;
+}
+
+.publication-preview:last-of-type {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.home-section__link {
+  margin-top: 0.25rem;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .home-hero,
+  .home-grid--two {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero {
+    padding-top: 2rem;
+    gap: 1.5rem;
+  }
+
+  .home-hero__image {
+    justify-content: flex-start;
+  }
+}
