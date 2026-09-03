@@ -15,7 +15,7 @@ redirect_from:
   <div class="home-hero__copy">
     <p class="home-eyebrow">Academic Website</p>
     <h1>Dou Li</h1>
-    <p class="home-lead">Researcher at Boston University. This site highlights current work, publications, professional materials, and ways to get in touch.</p>
+    <p class="home-lead">Postdoctoral Scholar, Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles. I study coupled physical-biogeochemical processes in coastal and open-ocean systems, using numerical modeling and observations to understand estuarine-shelf ecosystems, coastal upwelling dynamics, and ocean iron fertilization.</p>
     <div class="home-actions">
       <a class="btn btn--primary" href="#publications">View Publications</a>
       <a class="btn btn--inverse" href="#contact">Contact</a>
@@ -24,6 +24,7 @@ redirect_from:
       {% if site.author.googlescholar %}<li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>{% endif %}
       {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}">ORCID</a></li>{% endif %}
       {% if site.author.researchgate %}<li><a href="{{ site.author.researchgate }}">ResearchGate</a></li>{% endif %}
+      <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
     </ul>
   </div>
   <div class="home-hero__image">
@@ -37,8 +38,8 @@ redirect_from:
     <h2>About</h2>
   </div>
   <div class="home-card">
-    <p>Dou Li is affiliated with Boston University. This website is structured as a clean academic profile with space for research highlights, publications, a concise curriculum vitae, and professional contact information.</p>
-    <p>The current content uses the existing repository data and can be expanded by updating the markdown files for publications, talks, teaching, and CV materials.</p>
+    <p>I am a Postdoctoral Scholar in the Department of Atmospheric and Oceanic Sciences at UCLA, working with Prof. Daniele Bianchi. Before joining UCLA, I was a Postdoctoral Associate at Boston University's Department of Earth &amp; Environment, advised by Prof. Xiaozhou Ruan. I received my Ph.D. in Marine Environmental Science from the Hong Kong University of Science and Technology (HKUST) in 2022, advised by Prof. Jianping Gan, and my B.S. in Marine Science from Sun Yat-sen University in 2017.</p>
+    <p>My research combines regional ocean modeling (ROMS) with observational data to understand how physical processes — from basin-scale circulation down to submesoscale eddies and fronts — shape biogeochemical cycling, hypoxia, and productivity in coastal and open-ocean systems.</p>
   </div>
 </section>
 
@@ -50,11 +51,15 @@ redirect_from:
   <div class="home-grid home-grid--two">
     <div class="home-card">
       <h3>Current Focus</h3>
-      <p>Use this section to summarize core research questions, methods, and ongoing projects in a few clear sentences. The layout is already configured for a compact overview that works well on desktop and mobile.</p>
+      <p>My work centers on how physical ocean dynamics regulate biogeochemical cycling and ecosystem health. This spans hypoxia formation and eutrophication in estuarine-shelf systems, the role of mesoscale and submesoscale eddies in coastal upwelling and primary production, and the physical controls on ocean iron fertilization as a marine carbon dioxide removal strategy.</p>
     </div>
     <div class="home-card">
       <h3>Areas of Interest</h3>
-      <p>Add a short list of themes, application domains, or interdisciplinary interests here. Keeping this section brief makes the homepage scan quickly for collaborators, students, and recruiters.</p>
+      <ul class="home-list">
+        <li>Coupled physical-biogeochemical processes in estuarine-shelf ecosystems (eutrophication, hypoxia)</li>
+        <li>Mesoscale and submesoscale dynamics and their biogeochemical impacts in coastal upwelling systems</li>
+        <li>Ocean iron fertilization and marine carbon dioxide removal</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -86,14 +91,14 @@ redirect_from:
     <div class="home-card">
       <h3>At a Glance</h3>
       <ul class="home-list">
-        <li>Affiliation: Boston University</li>
+        <li>Affiliation: University of California, Los Angeles</li>
         <li>Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
         <li>Profiles: Google Scholar, ORCID, and ResearchGate</li>
       </ul>
     </div>
     <div class="home-card">
       <h3>Full CV</h3>
-      <p>The full CV page is set up for a more detailed academic record, including affiliations, professional links, and publications.</p>
+      <p>Employment, education, publications, talks, teaching, and awards in one place, with a downloadable PDF.</p>
       <p><a class="btn btn--primary" href="{{ base_path }}/cv/">Open CV Page</a></p>
     </div>
   </div>
@@ -105,11 +110,12 @@ redirect_from:
     <h2>Get In Touch</h2>
   </div>
   <div class="home-card">
-    <p>The most direct way to reach Dou Li is by email at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+    <p>The most direct way to reach me is by email at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
     <p>Academic profiles:
       {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}
       {% if site.author.orcid %} · <a href="{{ site.author.orcid }}">ORCID</a>{% endif %}
       {% if site.author.researchgate %} · <a href="{{ site.author.researchgate }}">ResearchGate</a>{% endif %}
+      · <a href="https://github.com/{{ site.author.github }}">GitHub</a>
     </p>
   </div>
 </section>

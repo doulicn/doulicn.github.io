@@ -7,10 +7,16 @@ main:
     url: /#research
 
   - title: "Publications"
-    url: /#publications
+    url: /publications/
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Teaching"
+    url: /teaching/
 
   - title: "CV"
-    url: /#cv
+    url: /cv/
 
   - title: "Contact"
     url: /#contact

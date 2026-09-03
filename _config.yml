@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Dou Li"
 title_separator          : "-"
 name                     : &name "Dou Li"
-description              : &description "Academic website for Dou Li"
+description              : &description "Dou Li - Postdoctoral Scholar, Department of Atmospheric and Oceanic Sciences, UCLA. Coastal and coupled physical-biogeochemical ocean dynamics."
 url                      : https://doulicn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "doulicn/doulicn.github.io"
@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Dou Li"
-  pronouns         : # example: "she/her"  
-  bio              : "Researcher at Boston University"
-  location         : "Boston, MA"
-  employer         : "Boston University"
+  pronouns         : # example: "she/her"
+  bio              : "Postdoctoral Scholar, Dept. of Atmospheric & Oceanic Sciences, UCLA"
+  location         : "Los Angeles, CA"
+  employer         : "University of California, Los Angeles"
   uri              : # URL
-  email            : "douli@bu.edu" 
+  email            : "douli@atmos.ucla.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
