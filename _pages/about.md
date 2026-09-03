@@ -74,7 +74,7 @@ redirect_from:
     {% for post in selected_publications limit:3 %}
       <article class="publication-preview">
         <p class="publication-preview__meta">{{ post.date | date: "%Y" }}{% if post.venue %} · {{ post.venue }}{% endif %}</p>
-        <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+        <h3><a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a></h3>
         {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
       </article>
     {% endfor %}
