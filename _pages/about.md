@@ -28,7 +28,7 @@ redirect_from:
     </ul>
   </div>
   <div class="home-hero__image">
-    <img src="{{ base_path }}/images/LD.png" alt="Portrait of Dou Li">
+    <img src="{{ base_path }}/images/profile.png" alt="Portrait of Dou Li">
   </div>
 </section>
 
