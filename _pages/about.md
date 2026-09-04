@@ -64,6 +64,7 @@ redirect_from:
   </div>
 </section>
 
+{% comment %}
 <section class="home-section" id="publications">
   <div class="home-section__header">
     <p class="home-section__eyebrow">Publications</p>
@@ -81,6 +82,9 @@ redirect_from:
     <p class="home-section__link"><a href="{{ base_path }}/publications/">Browse the full publications list</a></p>
   </div>
 </section>
+
+
+{% endcomment %}
 
 <section class="home-section" id="cv">
   <div class="home-section__header">
