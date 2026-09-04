@@ -82,8 +82,6 @@ redirect_from:
     <p class="home-section__link"><a href="{{ base_path }}/publications/">Browse the full publications list</a></p>
   </div>
 </section>
-
-
 {% endcomment %}
 
 <section class="home-section" id="cv">
