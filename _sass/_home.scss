@@ -97,6 +97,32 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.home-grid--three {
+  margin-top: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-figure {
+  margin: 0;
+}
+
+.home-figure img {
+  display: block;
+  width: 100%;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  border: 1px solid #d8e0e5;
+  box-shadow: 0 1rem 2.5rem rgba(15, 23, 42, 0.05);
+}
+
+.home-figure figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #5c6b73;
+}
+
 .home-card {
   padding: 1.5rem;
   border: 1px solid #d8e0e5;
@@ -142,7 +168,8 @@
 
 @media (max-width: 900px) {
   .home-hero,
-  .home-grid--two {
+  .home-grid--two,
+  .home-grid--three {
     grid-template-columns: 1fr;
   }
 
