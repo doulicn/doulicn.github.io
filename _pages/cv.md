@@ -17,7 +17,7 @@ Professional Profile
 * **Name:** Dou Li
 * **Affiliation:** Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles
 * **Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
-* **Google Scholar:** [Profile]({{ site.author.googlescholar }}) (h-index: 6)
+* **Google Scholar:** [Profile]({{ site.author.googlescholar }}) (h-index: 5, Citations: 244)
 * **ORCID:** [Profile]({{ site.author.orcid }})
 * **ResearchGate:** [Profile]({{ site.author.researchgate }})
 
