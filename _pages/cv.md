@@ -79,17 +79,6 @@ Research Funding & Experience
 * **National Natural Science Foundation of China, Key Program** (2020-2024): On the internal dynamics of layered circulation in the South China Sea. PI: Jianping Gan. Contribution: co-authored and contributed to proposal writing.
 * **Hong Kong Research Grant Council Theme-based Research Scheme** (2017-2022): Diagnosis and prognosis of intensifying eutrophication, hypoxia, and ecosystem consequences around Hong Kong waters: coupled physical-biogeochemical-pollution studies. PI: Jianping Gan. Contribution: model development, data analysis, and publication writing.
 
-Teaching and Mentorship
-======
-
-See the full list on the [Teaching page]({{ base_path }}/teaching/).
-
-<ul>
-{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-
 Fieldwork and Cruises
 ======
 

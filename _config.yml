@@ -201,7 +201,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false # temporarily hidden; set back to true to show teaching/mentorship pages again
     permalink: /:collection/:path/
   publications:
     output: true
