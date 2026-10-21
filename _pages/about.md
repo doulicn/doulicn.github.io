@@ -51,12 +51,7 @@ redirect_from:
   <div class="home-grid home-grid--two">
     <div class="home-card">
       <h3>Current Focus</h3>
-      <ul class="home-list home-list--bulleted">
-        <li>How physical ocean dynamics regulate biogeochemical cycling and ecosystem health</li>
-        <li>Hypoxia formation and eutrophication in estuarine-shelf systems</li>
-        <li>The role of mesoscale and submesoscale eddies in coastal upwelling and primary production</li>
-        <li>Physical controls on ocean iron fertilization as a marine carbon dioxide removal strategy</li>
-      </ul>
+      <p>My work centers on how physical ocean dynamics regulate biogeochemical cycling and ecosystem health. This spans hypoxia formation and eutrophication in estuarine-shelf systems, the role of mesoscale and submesoscale eddies in coastal upwelling and primary production, and the physical controls on ocean iron fertilization as a marine carbon dioxide removal strategy.</p>
     </div>
     <div class="home-card">
       <h3>Areas of Interest</h3>
