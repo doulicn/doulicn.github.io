@@ -9,8 +9,9 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/
+  # Talks tab hidden; uncomment to show it again
+  # - title: "Talks"
+  #   url: /talks/
 
   - title: "CV"
     url: /cv/
